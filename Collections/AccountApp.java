@@ -16,7 +16,7 @@ public class AccountApp extends Account{
         for(Account i:arrAccountants){
             System.out.println(i.name +" "+ i.accountNo+" "+i.amount);
         }
-        
+
         // using arraylist
         ArrayList<Account> accountantList = new ArrayList();
 

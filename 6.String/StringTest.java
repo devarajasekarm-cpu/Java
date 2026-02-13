@@ -1,11 +1,18 @@
+import java.util.ArrayList;
+import java.util.Collections;
+
 public class StringTest {
 
     static void main() {
 
-        String s = "axc";
-        String t = "ahbgdc";
-        boolean contains = false;
-        System.out.println(t.substring(0,t.length()).contains(String.valueOf(s.charAt(0))));
+        ArrayList list = new ArrayList();
+        list.add(42);
+        list.add(24);
+        list.add(87);
+        list.add(12);
+        list.sort((a,b)->a.getAmount()-b.getClass());
+//        Collections.sort(list);
+        System.out.println(list);
     }
 
 }
